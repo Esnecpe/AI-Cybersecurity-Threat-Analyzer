@@ -20,8 +20,6 @@ This project was developed as part of an Artificial Intelligence course and demo
 * Security Recommendations
 * Graphical User Interface (GUI)
 * IP Address Analysis
-* URL Analysis
-* Domain Analysis
 
 ---
 
@@ -29,7 +27,7 @@ This project was developed as part of an Artificial Intelligence course and demo
 
 ```text
 User Input
-(IP Address / URL / Domain)
+(IP Address)
             ↓
 
 Evidence Collection
@@ -73,18 +71,6 @@ GUI Output
 
 ```text
 185.220.101.5
-```
-
-### URL
-
-```text
-https://secure-login-check.com
-```
-
-### Domain
-
-```text
-suspicious-domain.net
 ```
 
 ---

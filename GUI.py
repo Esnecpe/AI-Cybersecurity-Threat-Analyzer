@@ -23,12 +23,12 @@ class CyberSecurityGUI:
         input_type_dropdown = ttk.Combobox(
             root,
             textvariable=self.input_type_var,
-            values=["IP Address", "URL", "Domain"],
+            values=["IP Address"],
             state="readonly"
         )
         input_type_dropdown.grid(row=1, column=1, padx=10, pady=10, sticky="w")
 
-        ttk.Label(root, text="Suspicious IP / URL / Domain").grid(row=2, column=0, padx=10, pady=10, sticky="w")
+        ttk.Label(root, text="Suspicious IP").grid(row=2, column=0, padx=10, pady=10, sticky="w")
         self.target_var = tk.StringVar()
         target_entry = ttk.Entry(root, textvariable=self.target_var, width=45)
         target_entry.grid(row=2, column=1, padx=10, pady=10, sticky="w")

@@ -2,7 +2,7 @@
 
 ## Authors
 
-Adrian Hernandez
+Adrian Hernandez &
 Peter Sarmiento
 
 California State University, Fullerton
